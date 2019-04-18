@@ -1,0 +1,10 @@
+This folder contains the source code of an 8-tile puzzle solver using Breadth-First Search.
+
+How to run:
+  
+  1. Run the file run.py on cmd to start the program.
+  2. Then click on the link or go directly on your browser and visit "localhost:5000".
+  3. You can now start playing the 8-tile puzzle solver.
+  
+The puzzle solver shows 2 buttons. One button (solve) to solve and randomize the tiles.
+And the other button (reset) to reload the puzzle.
