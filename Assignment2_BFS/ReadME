@@ -6,5 +6,6 @@ How to run:
   2. Then click on the link or go directly on your browser and visit "localhost:5000".
   3. You can now start playing the 8-tile puzzle solver.
   
-The puzzle solver shows 2 buttons. One button (solve) to solve and randomize the tiles.
+The puzzle has 2 button.
+One button (solve) to solve the tiles, and randomize itself.
 And the other button (reset) to reload the puzzle.
