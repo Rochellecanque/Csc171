@@ -1,7 +1,6 @@
 import random
 from collections import deque
 
-
 class State:
 
     def __init__(self, state, parent, move, depth, cost, key):
