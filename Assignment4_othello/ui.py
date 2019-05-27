@@ -130,7 +130,7 @@ class Gui:
                 centerx=self.screen.get_width() / 2, centery=60)
             human_txt = self.font.render("-> Human", True, self.WHITE)
             human_pos = human_txt.get_rect(
-                centerx=self.screen.get_width() / 2, centery=250)
+                centerx=self.screen.get_width() / 2, centery=240)
             comp_txt = self.font.render("-> Computer", True, self.WHITE)
             comp_pos = comp_txt.get_rect(
                 centerx=self.screen.get_width() / 2, centery=300)
