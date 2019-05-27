@@ -1,0 +1,15 @@
+Othello
+
+*** Note! Python 3 must be used for this program. ***
+
+How to run:
+  
+    1. First, install pygame.
+    2. Run the file run.py on cmd to start the program.
+    3. Then wait for the GUI.
+
+How to play:
+
+    1. On the main menu, you can assign players on player 1 and player 2, whether you want to play with a human or a computer.
+    2. You can also customize the level of difficulty of the computer on 'computer level'.
+    3. Then click 'Start' to start playing.

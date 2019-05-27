@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Breadth First Search </title>
+	<title> A* Search </title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../static/style.css">
 
@@ -99,7 +99,7 @@ function sleep(milliseconds) {
 
 </head>
 <body style="background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-color: dimgrey">
-	<p style="margin-left:595px; font-family: 'georgia','serif'; font-size:30px; margin-top:90px; color: gold;">A* Puzzle Solver</p>
+	<p style="margin-left:610px; font-family: 'georgia','serif'; font-size:30px; margin-top:90px; color: gold;">A* Puzzle</p>
 	<div class="container" id="8tiles" style="padding;">
 		<button id="t0" class="btn btn-default tile blank"> </button>
 		<button id="t1" class="btn btn-default tile">1</button>
@@ -117,12 +117,12 @@ function sleep(milliseconds) {
 	<button id="begin" onclick="start({{ initial | safe }}, {{ moves | safe }})" class="btn btn-default" style="margin-left:600px;">Solve</button>
 	<button id="begin" onclick="location.reload()" class="btn btn-default">Reset</button>
 
-	<p style="margin-left:290px; margin-top:20px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Shortest Path: {{ moves }}.</span></p>
-	<p style="margin-left:290px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Runtime: {{ sec_astar }} seconds</span></p>
-	<p style="margin-left:290px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">A* Number of Explored Nodes: {{ astar }}</span></p>
-	<p style="margin-left:290px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Shortest Path: {{ moves2 }}.</span></p>
-	<p style="margin-left:290px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Runtime: {{ sec_bfs }} seconds</span></p>
-	<p style="margin-left:290px; font-family: 'calibri','serif'; color: white;"><span style="background-color:green;">BFS Number of Explored Nodes: {{ bfs }}</span></p>
+	<p style="margin-left:300px; margin-top:20px; font-family: 'calibri','serif'; color: white;"><span>A* Shortest Path: {{ moves }}.</span></p>
+	<p style="margin-left:300px; font-family: 'calibri','serif'; color: white;"><span>A* Runtime: {{ sec_astar }} seconds</span></p>
+	<p style="margin-left:300px; font-family: 'calibri','serif'; color: white;"><span>A* Number of Explored Nodes: {{ astar }}</span></p>
+	<p style="margin-left:300px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span>BFS Shortest Path: {{ moves2 }}.</span></p>
+	<p style="margin-left:300px; margin-top:3px; font-family: 'calibri','serif'; color: white;"><span>BFS Runtime: {{ sec_bfs }} seconds</span></p>
+	<p style="margin-left:300px; font-family: 'calibri','serif'; color: white;"><span style=>BFS Number of Explored Nodes: {{ bfs }}</span></p>
 
 
 	<!-- <div class="container" id="printFollowers"></div> -->
