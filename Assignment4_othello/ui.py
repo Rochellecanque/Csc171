@@ -66,20 +66,20 @@ class Gui:
             title_pos = title.get_rect(
                 centerx=self.screen.get_width() / 2, centery=60)
 
-            start_txt = self.font.render("Start", True, self.WHITE)
+            start_txt = self.font.render("-> Start", True, self.WHITE)
             start_pos = start_txt.get_rect(
                 centerx=self.screen.get_width() / 2, centery=220)
-            player1_txt = self.font.render("First Player", True, self.WHITE)
+            player1_txt = self.font.render("-> First Player", True, self.WHITE)
             player1_pos = player1_txt.get_rect(
                 centerx=self.screen.get_width() / 2, centery=260)
-            player2_txt = self.font.render("Second Player", True, self.WHITE)
+            player2_txt = self.font.render("-> Second Player", True, self.WHITE)
             player2_pos = player2_txt.get_rect(
                 centerx=self.screen.get_width() / 2, centery=300)
-            level_txt = self.font.render("Computer Level", True, self.WHITE)
+            level_txt = self.font.render("-> Computer Level", True, self.WHITE)
             level_pos = level_txt.get_rect(
                 centerx=self.screen.get_width() / 2, centery=340)
-            human_txt = self.font.render("Human", True, self.WHITE)
-            comp_txt = self.font.render("Computer", True, self.WHITE)
+            human_txt = self.font.render("-> Human", True, self.WHITE)
+            comp_txt = self.font.render("-> Computer", True, self.WHITE)
 
             self.screen.blit(title, title_pos)
             self.screen.blit(start_txt, start_pos)
@@ -124,16 +124,16 @@ class Gui:
         """
         while True:
             self.screen.fill(self.BACKGROUND)
-            title_fnt = pygame.font.SysFont("Times New Roman", 34)
+            title_fnt = pygame.font.SysFont("comicsansms", 34)
             title = title_fnt.render("Othello", True, Color(0, 0, 255))
             title_pos = title.get_rect(
                 centerx=self.screen.get_width() / 2, centery=60)
-            human_txt = self.font.render("Human", True, self.WHITE)
+            human_txt = self.font.render("-> Human", True, self.WHITE)
             human_pos = human_txt.get_rect(
-                centerx=self.screen.get_width() / 2, centery=120)
-            comp_txt = self.font.render("Computer", True, self.WHITE)
+                centerx=self.screen.get_width() / 2, centery=250)
+            comp_txt = self.font.render("-> Computer", True, self.WHITE)
             comp_pos = comp_txt.get_rect(
-                centerx=self.screen.get_width() / 2, centery=360)
+                centerx=self.screen.get_width() / 2, centery=300)
 
             self.screen.blit(title, title_pos)
             self.screen.blit(human_txt, human_pos)
@@ -162,16 +162,16 @@ class Gui:
             title = title_fnt.render("Othello", True, self.BLUE)
             title_pos = title.get_rect(
                 centerx=self.screen.get_width() / 2, centery=60)
-            one_txt = self.font.render("Level 1", True, self.WHITE)
+            one_txt = self.font.render("-> Level 1", True, self.WHITE)
             one_pos = one_txt.get_rect(
-                centerx=self.screen.get_width() / 2, centery=120)
-            two_txt = self.font.render("Level 2", True, self.WHITE)
-            two_pos = two_txt.get_rect(
                 centerx=self.screen.get_width() / 2, centery=240)
+            two_txt = self.font.render("-> Level 2", True, self.WHITE)
+            two_pos = two_txt.get_rect(
+                centerx=self.screen.get_width() / 2, centery=280)
 
-            three_txt = self.font.render("Level 3", True, self.WHITE)
+            three_txt = self.font.render("-> Level 3", True, self.WHITE)
             three_pos = three_txt.get_rect(
-                centerx=self.screen.get_width() / 2, centery=360)
+                centerx=self.screen.get_width() / 2, centery=320)
 
             self.screen.blit(title, title_pos)
             self.screen.blit(one_txt, one_pos)
