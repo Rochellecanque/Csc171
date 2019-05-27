@@ -1,0 +1,41 @@
+
+#8tiles {
+	margin: auto !important;
+}
+
+.tile {
+	width: 90px;
+	height: 90px;
+	font-size: 30px;
+	color: black;
+	background-color:goldenrod;
+	font-family: 'georgia','serif'
+}
+
+.tile:hover {
+	color: white;
+	background-color:whitesmoke;
+}
+
+.blank {
+	background-color: white;
+}
+
+.blank:hover {
+	background-color: white;
+}
+
+#begin {
+	background-color: goldenrod;
+	color: black;
+	font-size: 25px;
+	font-family: 'georgia','serif';
+}
+
+.container {
+
+padding-left: 450px;
+
+
+
+}
