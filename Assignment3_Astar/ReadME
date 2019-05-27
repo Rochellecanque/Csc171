@@ -1,0 +1,15 @@
+A* and BFS Puzzle 
+
+*** Note! Python 2 must be used for this program. ***
+
+How to run:
+  
+    1. Run the file run.py on cmd to start the program.
+    2. Then click on the link or go directly on your browser and visit "localhost:5000".
+    3. You can now start playing the A* 8-tile puzzle solver.
+
+Instructions:
+
+    1. The "Solve" will randomize the tiles, and then the puzzle will automatically start solving itself.
+    2. Click the "Reset" button to refresh the solver, and then repeat Step 1.
+    3. The shortest path, runtime, and number of explored nodes of both the A* and BFS are shown below the puzzle.
